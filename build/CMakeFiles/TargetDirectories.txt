@@ -1,0 +1,3 @@
+/media/ups3t/Computer/Coding/C++/yodafier/build/CMakeFiles/rebuild_cache.dir
+/media/ups3t/Computer/Coding/C++/yodafier/build/CMakeFiles/edit_cache.dir
+/media/ups3t/Computer/Coding/C++/yodafier/build/CMakeFiles/yodafier.dir
