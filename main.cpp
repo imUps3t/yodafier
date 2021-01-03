@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <map>
+
+#include <filesystem>
+#include <fstream>
 
 std::string yodafy(const std::vector<std::string>& string_vector) {
 
@@ -29,6 +31,11 @@ bool ends_with_period(const std::string& text) {
 }
 
 int main(int argc, char** argv) {
+
+   if (argc < 4) {
+        std::cout << "Usage: " << argv[0] << " [text with subject and predicate]" << std::endl;  
+        exit(0);
+   }
 
    int start = 1;
    int end;
